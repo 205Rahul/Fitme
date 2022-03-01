@@ -71,7 +71,7 @@ app.delete("/diets/:dietId", dietController.deleteDiet)
 app.put("/diets", dietController.updateDiet)
 
 
-//remains to test so dom it first tomorrow
+
 //user_diet
 app.post("/userdiets", userdietController.addUserdiet)
 app.get("/userdiets", userdietController.getAllUserdiets)
